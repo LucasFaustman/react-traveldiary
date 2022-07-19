@@ -43,9 +43,14 @@ nav {
     display: flex;
     padding: 36px 0px;
     margin: 0px 36px;
-    border-bottom: 1px solid #F5F5F5;
-    flex: 0 0 auto;        
+    border-bottom: 1px solid #F5F5F5;    
 
+}
+
+.card--img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card--text {
@@ -123,7 +128,7 @@ nav {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 10.24px;
     line-height: 150%;
     color: #2B283A;
 }
